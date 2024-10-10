@@ -1,0 +1,35 @@
+@media  screen and (max-width:516px) {
+    nav .desktop {
+        display: none;
+    }
+    nav.mobile {
+        display: block;
+    }
+    nav.mobile.header{
+        display: flex ;
+        flex-direction: row ;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    nav.mobile.header.logo{
+flex: 1;
+text-align: left ;
+    }
+
+    nav.mobile.header.more button{
+        padding: 10px;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 20px;
+    }
+
+    nav.mobile.header.more button:hover{
+        background-color: white;
+        color: black;
+    }
+}
+        
